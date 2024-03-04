@@ -1,0 +1,15 @@
+QWidget{
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+QMainWindow{
+    background-color: #24283b;
+    border-radius: 10px;
+}
+
+#title_label{
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}

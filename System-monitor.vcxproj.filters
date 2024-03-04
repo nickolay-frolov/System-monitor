@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="style">
+      <UniqueIdentifier>{72d0268d-a3ae-489f-91fc-31a6d73a4305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\image">
+      <UniqueIdentifier>{3f5f0e4c-6a36-4703-ae60-2841fb516e02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\MainWindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="resource\MainResource.qrc">
+      <Filter>resource</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\image\battery_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\battery_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\close_window_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\close_window_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\cpu_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\cpu_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\hdd_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\hdd_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\maximize_window_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\maximize_window_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\minimize_window_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\minimize_window_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\monitoring_logo_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\monitoring_logo_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\network_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\network_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\ram_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\ram_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\vga_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\vga_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\wifi_dark.png">
+      <Filter>resource\image</Filter>
+    </Image>
+    <Image Include="resource\image\wifi_light.png">
+      <Filter>resource\image</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\MainWindow.ui">
+      <Filter>src</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="style\MainStyle.qss">
+      <Filter>style</Filter>
+    </None>
+  </ItemGroup>
+</Project>

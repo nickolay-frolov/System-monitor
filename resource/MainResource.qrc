@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="image">
+    <file>image/battery_dark.png</file>
+    <file>image/battery_light.png</file>
+    <file>image/close_window_dark.png</file>
+    <file>image/close_window_light.png</file>
+    <file>image/cpu_dark.png</file>
+    <file>image/cpu_light.png</file>
+    <file>image/hdd_dark.png</file>
+    <file>image/hdd_light.png</file>
+    <file>image/maximize_window_dark.png</file>
+    <file>image/maximize_window_light.png</file>
+    <file>image/minimize_window_dark.png</file>
+    <file>image/minimize_window_light.png</file>
+    <file>image/monitoring_logo_dark.png</file>
+    <file>image/monitoring_logo_light.png</file>
+    <file>image/network_dark.png</file>
+    <file>image/network_light.png</file>
+    <file>image/ram_dark.png</file>
+    <file>image/ram_light.png</file>
+    <file>image/vga_dark.png</file>
+    <file>image/vga_light.png</file>
+    <file>image/wifi_dark.png</file>
+    <file>image/wifi_light.png</file>
+  </qresource>
+</RCC>
